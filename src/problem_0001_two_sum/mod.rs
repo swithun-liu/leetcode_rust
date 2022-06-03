@@ -1,6 +1,7 @@
 pub mod index_map;
 pub mod sort_then_bidirectional_search;
 pub mod sort_then_bidirectional_search_2;
+mod swithun_two_sum;
 
 pub trait Solution {
     fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32>;

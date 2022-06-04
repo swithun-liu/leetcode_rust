@@ -1,6 +1,7 @@
 pub mod sort_then_two_sum;
 pub mod sort_then_two_sum_short;
 mod swithun_three_sum_by_two_sum;
+mod swithun_three_num_sort_and_double_pointer;
 
 pub trait Solution {
     fn three_sum(nums: Vec<i32>) -> Vec<Vec<i32>>;

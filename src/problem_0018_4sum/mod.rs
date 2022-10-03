@@ -1,4 +1,5 @@
 pub mod reduce_to_three_sum;
+pub mod swithun_4sum_use_2sum;
 
 pub trait Solution {
     fn four_sum(nums: Vec<i32>, target: i32) -> Vec<Vec<i32>>;

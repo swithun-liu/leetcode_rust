@@ -3,7 +3,7 @@ use crate::data_structures::ListNode;
 pub mod zip;
 pub mod zip_2;
 pub mod swithun_answer;
-pub mod swithun_answer_2;
+//pub mod swithun_answer_2;
 
 pub trait Solution {
     fn merge_two_lists(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> Option<Box<ListNode>>;
